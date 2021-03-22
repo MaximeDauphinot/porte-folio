@@ -3,14 +3,14 @@ import { nanoid } from "nanoid";
 // HEAD DATA
 export const headData = {
   title: "Maxime Dauphinot | Fullstack Developer", // e.g: 'Name | Developer'
-  lang: "fr, eng", // e.g: en, es, fr, jp
+  lang: "fr, en", // e.g: en, es, fr, jp
   description: "Welcome to my website", // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: "Hi, \n I'm",
-  name: "Maxime Dauphinot",
+  name: "Maxime",
   subtitle: "Javascript Fullstack Developer",
   cta: "",
 };
@@ -19,9 +19,9 @@ export const heroData = {
 export const aboutData = {
   img: "mdauphin.jpg",
   paragraphOne:
-    "I’m a Fullstack Developer located in Paris. I have a serious passion for Javascript, Front and Back developpement, dynamic user experiences.",
+    "I’m a Fullstack Developer located in Paris. I have a serious passion for Javascript, Front and Back developpement ( especially React.js and Node.js), dynamic user experiences.",
   paragraphTwo:
-    "Well-organised person, problem solver, independent employee with high attention to detail. Fan of Formula 1 and Bmx, outdoor activities, TV series and see some peoples. A young person with lot of ressources and energy,",
+    "Well-organised person, problem solver, independent employee with high attention to detail. Fan of Formula 1 and Bmx, outdoor activities, TV series and see some peoples. A young person with lot of resources and energy,",
   paragraphThree:
     "Interested in the entire app developpement spectrum and working on ambitious projects with positive people.",
   resume: "https://www.resumemaker.online/es.php", // if no resume, the button will not show up
@@ -31,8 +31,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: "project.jpg",
-    title: "",
+    img: "flobene.jpg",
+    title: "Floriane Benetti",
+    info: "",
+    info2: "",
+    url: "https://floriane-benetti.herokuapp.com/",
+    repo: "", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: "pinky.jpg",
+    title: "Pinky pimp",
     info: "",
     info2: "",
     url: "",
@@ -40,17 +49,8 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: "project.jpg",
-    title: "",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "project.jpg",
-    title: "",
+    img: "arcep.jpg",
+    title: "Arcep",
     info: "",
     info2: "",
     url: "",
