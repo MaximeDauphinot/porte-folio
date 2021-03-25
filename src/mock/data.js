@@ -24,7 +24,7 @@ export const aboutData = {
     "Well-organised person, problem solver, independent employee with high attention to detail. Fan of Formula 1 and Bmx, outdoor activities, TV series and see some peoples. A young person with lot of resources and energy,",
   paragraphThree:
     "Interested in the entire app developpement spectrum and working on ambitious projects with positive people.",
-  resume: "https://www.resumemaker.online/es.php", // if no resume, the button will not show up
+  resume: "Maxime Dauphinot.pdf", // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
