@@ -34,7 +34,7 @@ export const projectsData = [
     img: "flobene.jpg",
     title: "Floriane Benetti",
     info: "Simple porte folio for an independant scenographer",
-    info2: "- Node.js / ejs \n- Express.js \n- Mongoose",
+    info2: "- Node.js / ejs \n- Express.js \n- Mongoose \n- CSS3 \n -HTML5",
     url: "https://floriane-benetti.herokuapp.com/",
     repo: "", // if no repo, the button will not show up
   },
@@ -54,7 +54,7 @@ export const projectsData = [
     title: "E-spectre",
     info:
       "React app representing Hz waves spectrum and which part are assigned to different devices for telecomunication",
-    info2: "- React.js \n- D3.js",
+    info2: "- React.js \n- D3.js \n- CSS3 \n -HTML5",
     url: "https://e-spectre.herokuapp.com/",
     repo: "", // if no repo, the button will not show up
   },
