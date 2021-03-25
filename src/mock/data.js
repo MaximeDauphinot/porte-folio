@@ -33,28 +33,30 @@ export const projectsData = [
     id: nanoid(),
     img: "flobene.jpg",
     title: "Floriane Benetti",
-    info: "",
-    info2: "",
+    info: "Simple porte folio for an independant scenographer",
+    info2: "- Node.js / ejs \n- Express.js \n- Mongoose",
     url: "https://floriane-benetti.herokuapp.com/",
     repo: "", // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: "pinky.jpg",
-    title: "Pinky pimp",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: "pinky.jpg",
+  //   title: "Pinky Pimp",
+  //   info: "",
+  //   info2:
+  //     "- React.js \n- Material Ui \n- Node.js \n- Express.js \n- MongoDB \n- Mongoose",
+  //   url: "",
+  //   repo: "", // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: "arcep.jpg",
-    title: "Arcep",
-    info: "",
-    info2: "",
-    url: "",
-    repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
+    title: "E-spectre",
+    info:
+      "React app representing Hz waves spectrum and which part are assigned to different devices for telecomunication",
+    info2: "- React.js \n- D3.js",
+    url: "https://e-spectre.herokuapp.com/",
+    repo: "", // if no repo, the button will not show up
   },
 ];
 
